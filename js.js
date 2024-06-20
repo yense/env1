@@ -1,1 +1,1 @@
-console.log(process.env.js)
+console.log("API URL:", process.env.js)
