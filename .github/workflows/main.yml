@@ -13,7 +13,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Replace environment variable in script.js
+      - name: Replace environment variable in js.js
         run: |
           sed -i 's/SECRET_MESSAGE/${{ secrets.SECRET_MESSAGE }}/g' js.js
 
