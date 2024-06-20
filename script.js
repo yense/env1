@@ -2,4 +2,4 @@
 const mensaje = 'SECRET_MESSAGE';
 
 // Mostrar la variable en la consola
-console.log(mensaje);
+alert(mensaje);
